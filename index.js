@@ -42,7 +42,7 @@ function createMarkup(arr) {
             <img src="${icon}" alt="${text}">
             <h2>${date}</h2>
             <h3>${text}</h3>
-            <h3>${avgtemp_c} </h3>
+            <h3>${avgtemp_c} °C </h3>
         </li>`)
         .join('');
 }
